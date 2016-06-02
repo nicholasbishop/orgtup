@@ -22,3 +22,10 @@ S3Path = namedtuple(
         'key',
     )
 )
+
+ElasticBeanstalkAppEnv = namedtuple(
+    'ElasticBeanstalkAppEnv', (
+        'application_name',
+        'environment_name',
+    )
+)
