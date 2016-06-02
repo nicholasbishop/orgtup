@@ -15,3 +15,10 @@ AwsCredentials = namedtuple(
         'secret_access_key',
     )
 )
+
+S3Path = namedtuple(
+    'S3Path', (
+        'bucket',
+        'key',
+    )
+)
